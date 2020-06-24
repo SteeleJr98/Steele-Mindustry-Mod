@@ -1,6 +1,6 @@
-name: "example-mod"
-displayName: "[orange]Example[gold] Mod" //what displays in the mod selection menu
-author: "Anuke"
-description: "A simple mod. Demonstrates how to make[accent] new ores[] and[orange] machines.[]"
-version: "3.1"
-minGameVersion: "103"
+name: "steele-first-mod"
+displayName: "[sky]Steele's[sky] Mod" //what displays in the mod selection menu
+author: "Steele"
+description: "Just a test mod for now :3"
+version: "1.0"
+minGameVersion: "104"
