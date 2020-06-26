@@ -1,0 +1,5 @@
+type: material
+name: Iron
+description: Iron Item
+hardness: 3
+color: ffffff

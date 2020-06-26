@@ -1,0 +1,5 @@
+type: material
+name: Quartz
+description: Quartz Item
+hardness: 4
+color: ffffff
