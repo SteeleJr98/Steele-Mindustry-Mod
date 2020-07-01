@@ -1,0 +1,146 @@
+-Ores:
+#added Gold -pneumatic
+#added Silver -pneumatic
+#added Iron -pneumatic
+#added Quartz -laser
+(All launchable)
+
+-Constructs:
+Powered Drill (Magneto Drill) -> Copper, lead, titanium, gold, silver, iron
+|
+-> Requires power (Power consumption unknown for now)
+-> When powered chance of gold on copper, chance of silver on lead, chance of iron on titanium
+-> Made from titanium, silicon (amounts unknown for now)
+-> Produces slag, stops working if slag full
+
+Powered Conveyors
+|
+-> Requires Power (Power consumption unknown for now)
+-> When powered 50% increase from titanium, stopped when no power
+-> Transfer power as line
+-> 100 HP
+-> Made from 1 copper, 1 lead, 1 titanium, 1 electrum
+-> Auto repair when powered, self only
+
+Electrum Forge
+|
+-> Requires Power (Power consumption unknown for now)
+-> Inputs 1 gold, 1 silver
+-> Output 2 electrum
+-> Made from lead, iron, concrete 
+
+Brass forge
+|
+-> Requires power (Power consumption unknown for now)
+-> Inputs 3 copper, 1 gold
+-> Output 4 brass
+-> Made from 25 lead, 30 concrete (amounts unknown for now)
+
+Concrete mixer
+|
+-> No power
+-> Inputs 4 sand, 20 slag/sec
+-> 15 concrete
+
+
+Ferrofluid mixer
+|
+-> Requires Power (Power consumption unknown for now)
+-> Input iron, slag (amounts unknown for now)
+-> Outputs ferrofluid (amounts unknown for now)
+
+
+Electrodeposition tank
+|
+-> No power
+-> Input ferrofluid, 1 electrum (Fluid amount unknown for now)
+-> Output 1 ferromagnetic ingot
+
+Rolling machine
+|
+-> Requires power (Power consumption unknown for now)
+-> Input 1 ferromagnetic ingot
+-> Output 1 ferromagnetic rod
+
+Clockwork forge
+|
+-> Requires power (Power consumption unknown for now)
+-> Input 3 brass, 1 iron, 1 quartz
+-> Output 1 clockwork
+
+Quartz Factory
+|
+-> Requires power (Power consumption unknown for now)
+-> Input 1 silicone, 1 metaglass
+-> Output 1 quartz
+
+
+
+
+-Weapons:
+Bunkered weapons
+|
+-> Recipe of weapon and 30 concrete per tile
+
+Discharge turret
+|
+-> Requires Power (Same as arc)
+-> Made from 50 lead, 35 electrum
+-> Same stats as arc turret
+-> Air only
+
+Gauss turret
+|
+-> Requires power (200/sec while firing)
+-> 3x3 turret
+-> Rate of fire 1.25/sec
+-> Ammo ferromagnetic rod, electrum, copper
+	-> Ammo stats coming soon
+
+
+
+
+
+
+
+-Materials:
+Electrum
+|
+-> Made from gold and silver
+->Launchable
+
+Brass
+|
+-> Smelted from copper and gold
+-> Launchable
+
+Concrete
+|
+-> Made from sand and slag
+-> Launchable
+
+Ferrofluid
+|
+-> Liquid
+-> Made from iron and slag
+
+Ferromagnetic ingot
+|
+-> Made from ferrofluid and electrum
+-> Not launchable
+
+Ferromagnetic rod
+|
+-> Made from ferromagnetic ingot
+-> Not launchable
+
+Clockwork
+|
+-> Made from brass, iron, and quartz
+-> Not launchable
+
+Quartz
+|
+-> Mineable
+-> Made from metaglass and silicone
+-> Launchable
