@@ -1,0 +1,31 @@
+{
+  type: GenericSmelter
+  name: Electrodisposition Tank
+  description: Electrodisposition Tank
+  outputItem: {
+    item: "ferromagnetic-ingot",
+    amount: 1
+  }
+  size: 2
+  hasPower: false
+  hasItems: true
+  craftTime: 30
+  consumes: {
+    items: {
+      items: [
+        {
+          item: "electrum",
+          amount: 1
+        }
+      ]
+    }
+    liquid: {
+      liquid: "ferrofluid",
+      amount: 0.3
+    }
+  }
+  requirements: [
+  copper/20
+  ]
+  category: crafting
+}
