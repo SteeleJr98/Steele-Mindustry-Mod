@@ -1,17 +1,31 @@
-name: Magneto Drill
-description: Testing a drill now
-type: Drill
-size: 2
-tier: 3
-drillTime: 250
-consumes: {
-  power: 3
-}
-hasLiquids: true
-pumpAmount: 0.1
-liquidCapacity: 30
-requirements: [
+{
+  name: Magneto Drill
+  description: Testing a drill now
+
+  outputLiquid: {
+    liquid: slag
+    amount: 20
+  }
+  size: 2
+  tier: 3
+  drillTime: 250
+  consumes: {
+    power: 3
+  }
+
+
+
+
+
+
+  hasItems: true
+  //configurable: true
+
+  requirements: [
   titanium/20
   silicon/20
-]
-category: production
+  ]
+  category: production
+
+
+}
