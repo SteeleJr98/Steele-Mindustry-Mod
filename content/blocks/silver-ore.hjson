@@ -1,2 +1,4 @@
-type: OreBlock
-itemDrop: silver
+{
+  type: OreBlock
+  itemDrop: silver
+}
