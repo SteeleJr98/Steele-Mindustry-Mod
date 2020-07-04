@@ -1,0 +1,6 @@
+{
+  name: Ferrofluid
+  description: test fluid
+  temperature: 0.5
+  color: b78359
+}
