@@ -1,0 +1,6 @@
+{
+  type: resource
+  name: Clockwork
+  description: Clockwork
+  color: ffc961
+}

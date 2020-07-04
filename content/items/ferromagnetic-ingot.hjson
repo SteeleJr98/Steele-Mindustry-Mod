@@ -1,0 +1,6 @@
+{
+  type: resource
+  name: Ferromagnetic Ingot
+  description: Ferromagnetic Ingot
+  color: 545454
+}

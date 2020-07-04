@@ -1,5 +1,7 @@
-type: material
-name: Silver
-description: Silver Item
-hardness: 3
-color: ffffff
+{
+  type: material
+  name: Silver
+  description: Silver Item
+  hardness: 3
+  color: a4a2bd
+}

@@ -1,5 +1,7 @@
-type: material
-name: Iron
-description: Iron Item
-hardness: 3
-color: ffffff
+{
+  type: material
+  name: Iron
+  description: Iron Item
+  hardness: 3
+  color: 588f99
+}

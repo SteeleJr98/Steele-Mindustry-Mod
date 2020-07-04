@@ -1,0 +1,6 @@
+{
+  type: material
+  name: Electrum
+  description: Electrum Item
+  color: ffff2c
+}

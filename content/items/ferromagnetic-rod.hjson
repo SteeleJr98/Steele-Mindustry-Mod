@@ -1,0 +1,6 @@
+{
+  type: resource
+  name: Ferromagnetic Rod
+  description: Ferromagnetic Rod
+  color: 202020
+}

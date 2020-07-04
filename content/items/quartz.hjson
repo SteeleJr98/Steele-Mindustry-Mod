@@ -1,5 +1,7 @@
-type: material
-name: Quartz
-description: Quartz Item
-hardness: 4
-color: ffffff
+{
+  type: material
+  name: Quartz
+  description: Quartz Item
+  hardness: 4
+  color: e2e2e2
+}
