@@ -1,0 +1,33 @@
+{
+  type: GenericSmelter
+  name: Brass Forge
+  description: Brass Forge
+  outputItem: {
+    item: brass
+    amount: 4
+  }
+  size: 2
+  hasPower: true
+  hasItems: true
+  craftTime: 30
+  consumes: {
+    power: 3
+    items: {
+      items: [
+        {
+          item: gold,
+          amount: 1
+        },
+        {
+          item: copper,
+          amount: 3
+        }
+      ]
+    }
+  }
+  requirements: [
+  lead/25
+  concrete/30
+  ]
+  category: crafting
+}

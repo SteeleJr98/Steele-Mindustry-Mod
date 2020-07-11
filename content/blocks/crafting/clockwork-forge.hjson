@@ -1,0 +1,36 @@
+{
+  type: GenericSmelter
+  name: Clockwork Forge
+  description: Clockwork Forge
+  outputItem: {
+    item: clockwork
+    amount: 1
+  }
+  size: 2
+  hasPower: true
+  hasItems: true
+  craftTime: 30
+  consumes: {
+    power: 3
+    items: {
+      items: [
+        {
+          item: brass,
+          amount: 3
+        },
+        {
+          item: iron,
+          amount: 1
+        },
+        {
+          item: quartz,
+          amount: 1
+        }
+      ]
+    }
+  }
+  requirements: [
+  copper/20
+  ]
+  category: crafting
+}

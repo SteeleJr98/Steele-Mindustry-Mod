@@ -1,0 +1,29 @@
+{
+  type: GenericCrafter
+  name: Rolling Machine
+  description: Rolling Machine
+  outputItem: {
+    item: "ferromagnetic-rod"
+    amount: 1
+  }
+  size: 2
+  hasPower: true
+  hasItems: true
+  craftTime: 30
+  consumes: {
+  power: 3
+    items: {
+      items: [
+        {
+          item: "ferromagnetic-ingot",
+          amount: 1
+        }
+      ]
+
+    }
+  }
+  requirements: [
+  copper/20
+  ]
+  category: crafting
+}

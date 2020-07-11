@@ -1,0 +1,23 @@
+{
+  //type: Conveyor
+  name: Powered Conveyor
+  description: Powered Conveyor
+
+  hasPower: true
+
+  solid: true
+
+  consumes: {
+    power: 3
+  }
+
+  requirements: [
+  copper/20
+  ]
+
+  speed: 0.25
+
+
+
+  category: distribution
+}
