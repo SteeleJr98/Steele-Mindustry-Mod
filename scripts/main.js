@@ -1,0 +1,2 @@
+//blocks
+require("blocks/magnetodrill")
