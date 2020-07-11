@@ -1,0 +1,32 @@
+{
+  type: GenericSmelter
+  name: Quartz Factory
+  description: Quartz Factory
+  outputItem: {
+    item: quartz
+    amount: 1
+  }
+  size: 2
+  hasPower: true
+  hasItems: true
+  craftTime: 30
+  consumes: {
+    power: 30
+    items: {
+      items: [
+        {
+          item: silicon,
+          amount: 1
+        },
+        {
+          item: metaglass,
+          amount: 1
+        }
+      ]
+    }
+  }
+  requirements: [
+  copper/20
+  ]
+  category: crafting
+}
